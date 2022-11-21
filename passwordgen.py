@@ -2,7 +2,7 @@ import random
 
 uppercase_letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowercase_letters = uppercase_letters.lower()
-digits = "0123456789"
+numbers = "0123456789"
 symbols = "!@#$%^&*()-_=+[{]};:<,>.?/\|`~ "
 
 upper, lower, nums, syms = True, True, True, True
@@ -14,7 +14,7 @@ if upper:
 if lower:
     all += lowercase_letters
 if nums:
-    all += digits
+    all += numbers
 if syms:
     all += symbols
 
